@@ -53,7 +53,7 @@ export const SettingsModal = ({
   const secondLayoutClassName = classnames((activeAppArea === 'Keyboard,Bar' ? (isHighContrast ? 'border-orange-400' : 'border-green-400') : 'border-gray-200 dark:border-gray-300'), 'local-font border-2 text-black dark:text-white p-2 text-lg rounded cursor-pointer')
 
   const settingDescriptionClassName = classnames((displayLanguage === PREFERRED_DISPLAY_LANGUAGE ? 'local-font' : ''), 'text-xs text-gray-500 dark:text-gray-400')
-  const aboutClassName = classnames((displayLanguage === PREFERRED_DISPLAY_LANGUAGE ? 'local-font' : ''), 'text-left text-sm text-gray-500 dark:text-gray-300')
+  //const aboutClassName = classnames((displayLanguage === PREFERRED_DISPLAY_LANGUAGE ? 'local-font' : ''), 'text-left text-sm text-gray-500 dark:text-gray-300')
 
   return (
     <BaseModal title={t('Settings')} isOpen={isOpen} handleClose={handleClose}>

@@ -17,11 +17,11 @@ import {
   GAME_LOST_INFO_DELAY,
   WELCOME_INFO_MODAL_MS,
   PREFERRED_DISPLAY_LANGUAGE,
-  AD_CLIENT_ID,
-  AD_SLOT_TOP_BANNER_ID,
-  AD_SLOT_BOTTOM_BANNER_ID,
-  AD_SLOT_LEFT_SKIN_ID,
-  AD_SLOT_RIGHT_SKIN_ID,
+  //AD_CLIENT_ID,
+  //AD_SLOT_TOP_BANNER_ID,
+  //AD_SLOT_BOTTOM_BANNER_ID,
+  //AD_SLOT_LEFT_SKIN_ID,
+  //AD_SLOT_RIGHT_SKIN_ID,
 } from './constants/settings'
 import {
   isWordInWordList,
@@ -613,6 +613,7 @@ function App() {
         </div>
         
       </div>
+      
   )
 }
 
