@@ -10,6 +10,7 @@ import { StatsModal } from './components/modals/StatsModal'
 import { MigrateStatsModal } from './components/modals/MigrateStatsModal'
 import { SettingsModal } from './components/modals/SettingsModal'
 import { t, WIN_MESSAGES } from './constants/strings'
+import { Adsense } from '@ctrl/react-adsense'
 import {
   MAX_WORD_LENGTH,
   MAX_CHALLENGES,
