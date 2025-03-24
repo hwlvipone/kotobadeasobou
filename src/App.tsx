@@ -389,12 +389,12 @@ function App() {
   return (
     <div className="m-0 p-0 max-w-full">
       <div className="text-center adsbygoogle">
-        {/* <Adsense client={AD_CLIENT_ID} slot={AD_SLOT_TOP_BANNER_ID} /> */}
+        <Adsense client={AD_CLIENT_ID} slot={AD_SLOT_TOP_BANNER_ID} />
       </div>
       <div className="pt-2 pb-3 flex max-w-full">
         <div className="hidden md:block flex-none w-32 lg:w-64 mt-3">
           <div className="text-center adsbygoogle">
-            {/* <Adsense client={AD_CLIENT_ID} slot={AD_SLOT_LEFT_SKIN_ID} /> */}
+            <Adsense client={AD_CLIENT_ID} slot={AD_SLOT_LEFT_SKIN_ID} />
           </div>
         </div>
         <div className="block flex-grow max-w-full mx-auto sm:px-6 lg:px-8">
@@ -501,14 +501,14 @@ function App() {
         </div>
         <div className="hidden md:block flex-none w-32 lg:w-64 mt-3">
           <div className="text-center adsbygoogle">
-            {/* <Adsense client={AD_CLIENT_ID} slot={AD_SLOT_RIGHT_SKIN_ID} /> */}
+            <Adsense client={AD_CLIENT_ID} slot={AD_SLOT_RIGHT_SKIN_ID} />
           </div>
         </div>
 
         
-      {/* <div className="text-center adsbygoogle">
+      <div className="text-center adsbygoogle">
         <Adsense client={AD_CLIENT_ID} slot={AD_SLOT_BOTTOM_BANNER_ID} />
-      </div> */}
+      </div>
     </div>
     {/* 新しく追加したセクション */}
         <div className="mt-8 px-4 py-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
