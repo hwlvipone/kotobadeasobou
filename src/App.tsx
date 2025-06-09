@@ -514,8 +514,7 @@ function App() {
     {/* 新しく追加したセクション */}
         <div className="mt-8 px-4 py-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
           <h2 className="text-3xl font-bold mb-6 text-gray-800 dark:text-white">ことのはたんご - 日本語版Wordleで言葉の世界を冒険しよう！</h2>
-          <script async="async" data-cfasync="false" src="//pl26874830.profitableratecpm.com/af2c486bd69c3e4a04e27ef06d360157/invoke.js"></script>
-<div id="container-af2c486bd69c3e4a04e27ef06d360157"></div>
+         </div>
           <p className="mb-6 text-lg text-gray-600 dark:text-gray-300">
             こんにちは、言葉の冒険者の皆さん！「ことのはたんご」へようこそ。ここでは、毎日新しい言葉の謎に挑戦できる日本語版Wordleゲームをお楽しみいただけます。「ことのはたんご」は、あなたの語彙力と直感を磨く楽しい方法です。
           </p>
