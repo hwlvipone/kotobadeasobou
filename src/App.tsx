@@ -390,8 +390,7 @@ function App() {
   return (
     <div className="m-0 p-0 max-w-full">
       <div className="text-center adsbygoogle">
-        <script async="async" data-cfasync="false" src="//pl26874830.profitableratecpm.com/af2c486bd69c3e4a04e27ef06d360157/invoke.js"></script>
-<div id="container-af2c486bd69c3e4a04e27ef06d360157"></div>
+        <Adsense client={AD_CLIENT_ID} slot={AD_SLOT_TOP_BANNER_ID} />
       </div>
       <div className="pt-2 pb-3 flex max-w-full">
         <div className="hidden md:block flex-none w-32 lg:w-64 mt-3">
